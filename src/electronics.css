@@ -76,7 +76,7 @@ body
     .electronics-products {
         grid-template-columns: 1fr; 
         gap: 1rem; 
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-top: 5rem;
     }
 
