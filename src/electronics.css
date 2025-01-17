@@ -118,3 +118,30 @@ body
     }
 
 }
+
+@media (max-width: 390px) and (min-width: 390px) and (max-height: 844px) and (min-height: 844px) {
+    .electronics-products {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-left: 1rem;
+        margin-top: 5rem;
+    }
+
+    .electronics-product-card {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .electronics-product-img {
+        height: 9rem; 
+        width: 9rem;
+    }
+
+    .electronics-product-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .electronics-product-card p {
+        font-size: 1rem;
+    }
+}
