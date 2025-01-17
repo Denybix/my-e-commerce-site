@@ -123,12 +123,12 @@ body
     .products-div {
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-left: 2rem ;
+        margin-left: 3rem ;
         margin-top: 5rem;
     }
 
     .card {
-        width: auto;
+        width: 270px;
         padding: 1rem;
     }
 
