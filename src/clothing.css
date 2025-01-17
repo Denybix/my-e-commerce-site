@@ -74,9 +74,9 @@ body
 
 @media (max-width: 480px) {
     .clothing-products {
-        grid-template-columns: 1fr; 
-        gap: 1rem; 
-        margin-left: 3rem;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-left: 2rem;
         margin-top: 5rem;
     }
 
