@@ -75,9 +75,9 @@ body
 
 @media (max-width: 480px) {
     .products-div {
-        grid-template-columns: 1fr; 
-        gap: 1rem; 
-        margin-left: 0.5rem;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-left: 2rem;
         margin-top: 5rem;
     }
     
