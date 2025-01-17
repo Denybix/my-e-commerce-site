@@ -118,3 +118,30 @@ body
     }
 
 }
+
+@media (max-width: 390px) and (min-width: 390px) and (max-height: 844px) and (min-height: 844px) {
+    .products-div {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-left: 2rem ;
+        margin-top: 5rem;
+    }
+
+    .card {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .home-product-img {
+        height: 9rem; 
+        width: 9rem;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+}
