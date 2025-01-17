@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background:#E3E6E6;
+    width: 100%;
+}
+.electronics-products
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    user-select: none;
+    margin-top: 3rem;
+}
+
+.electronics-product-card
+{
+    width: 300px;
+    background: #fff;
+    padding: 2rem;
+}
+
+.electronics-product-card h2,p
+{
+    color: black;   
+}
+
+.electronics-product-card:hover
+{
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.electronics-product-img
+{
+    height: 10rem;
+    width: 10rem;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 1024px) {
+    .electronics-products {
+        grid-template-columns: repeat(3, 1fr); 
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .electronics-products{
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 1rem;
+        row-gap: 1.5rem;
+    }
+
+    .electronics-product-card {
+        padding: 0.75rem; 
+    }
+
+    .electronics-product-img {
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .electronics-products {
+        grid-template-columns: 1fr; 
+        gap: 1rem; 
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+
+    .electronics-product-card {
+        padding: 0.5rem; 
+    }
+
+    .electronics-product-img{
+        height: 7rem; 
+        width: 7rem;
+    }
+}
+
+@media (max-width: 411px) and (min-width: 411px) and (max-height: 892px) and (min-height: 892px) {
+    .electronics-products {
+        grid-template-columns: 1fr; 
+        gap: 1rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+    }
+
+    .electronics-product-card {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .electronics-product-img {
+        height: 9rem; 
+        width: 9rem;
+    }
+
+    .electronics-product-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .electronics-product-card p {
+        font-size: 1rem;
+    }
+
+}
