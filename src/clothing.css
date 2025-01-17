@@ -76,12 +76,13 @@ body
     .clothing-products {
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-top: 5rem;
     }
 
     .clothing-product-card {
-        padding: 0.5rem; 
+        padding: 0.5rem;
+        width: 240px
     }
 
     .clothing-product-img{
