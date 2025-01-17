@@ -95,7 +95,7 @@ body
     .products-div {
         grid-template-columns: 1fr !important; 
         gap: 1rem !important; 
-        margin-left: -3rem !important;
+        margin-left: 1rem !important;
         margin-right: 1rem !important;
         margin-top: 5rem !important;
     }
