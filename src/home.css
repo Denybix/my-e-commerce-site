@@ -83,7 +83,6 @@ body
 
     .card {
         padding: 0.5rem;
-        width: 290px;
     }
 
     .home-product-img {
@@ -102,8 +101,8 @@ body
     }
 
     .card {
-        width: auto;
-        padding: 1rem;
+        width: 270px;
+        padding: 0.5rem;
     }
 
     .home-product-img {
