@@ -140,12 +140,14 @@ body {
   }
 
   .contact-header p {
-    font-size: 15px;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      padding: 0 1rem;
   }
 
   .contact-container {
     padding: 0.5rem;
-    margin-bottom: 3rem;
+    margin-top: -1rem;
   }
 
   .contact-card,
