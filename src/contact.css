@@ -132,7 +132,8 @@ body {
 
 @media screen and (max-width: 480px) {
   .contact-header {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    width: 100%;
   }
 
   .contact-header h1 {
@@ -166,7 +167,6 @@ body {
     font-size: 14px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .navbar-menu-icon {
