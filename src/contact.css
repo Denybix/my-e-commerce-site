@@ -210,7 +210,7 @@ body {
     gap: 1rem;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-top: 0rem;
   }
 
   .contact-card,
