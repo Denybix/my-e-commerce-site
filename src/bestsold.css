@@ -88,28 +88,28 @@ body {
 }
 
 @media (max-width: 390px) and (min-width: 390px) and (max-height: 844px) and (min-height: 844px) {
-    .products-div {
+    .best-products {
         grid-template-columns: 1fr;
         gap: 1rem;
         margin-left: 2rem;
         margin-top: 5rem;
     }
 
-    .card {
+    .best-product-card {
         width: 265px;
         padding: 1rem;
     }
 
-    .home-product-img {
+    .best-product-img {
         height: 9rem; 
         width: 9rem;
     }
 
-    .card h2 {
+    .best-product-card h2 {
         font-size: 1.2rem;
     }
 
-    .card p {
+    .best-products-card p {
         font-size: 1rem;
     }
 }
